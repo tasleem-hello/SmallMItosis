@@ -2,7 +2,9 @@ We derived A-FCN model from VGG16-net [42] by replacing the last three fully con
 
 ### Train
 A-FCN is pre-trained on ICPR 2012 dataset.
+
 (a) For A-FCN weights initialization, parameters of VGG16-net which is pre-trained on the PASCAL semantic segmentation dataset are loaded.
+
 (b) We modify the other files to train it on ICPR 2012 dataset.
 ### Test
 The A-FCN model is then applied on the ICPR 2014 and AMIDA13 MITOSIS data to produce segmentation map.
