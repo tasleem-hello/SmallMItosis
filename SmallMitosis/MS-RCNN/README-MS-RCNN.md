@@ -31,5 +31,5 @@ cd $ MS-RCNN/detector_tools
 To evaluate the detection result of MS-RCNN model:
 python measure_output_detections.py
 
-#### Data preparation
+### Data preparation
 The ICPR 2012 dataset is relatively small, so we generated augmented versions of original training dataset by rotation and elastic deformation. The images in training datasets are rotated with preset values of 45°, 90°, 135°, 220°, and 180° values and elastic deformation  is performed using elasticity coefficient (σ) of 10 and the scaling factor (α) of 90.
